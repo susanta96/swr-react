@@ -1,0 +1,29 @@
+.App {
+  display: grid;
+}
+
+.form-group {
+  display: grid;
+  gap: .25rem;
+}
+
+.todo-list {
+  list-style: none;
+  display: grid;
+  gap: .5rem;
+  padding: 1rem .5rem;
+  
+}
+.todo-item {
+  padding: .5rem 1rem;
+  border-radius: .4rem;
+  border: 1px solid salmon;
+  display: grid;
+  grid-template-columns: 1fr 50px;
+  align-items: center;
+  gap: 1ch;
+}
+.del-icon {
+  display: grid;
+  place-content: center;
+}
