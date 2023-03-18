@@ -22,6 +22,9 @@
   grid-template-columns: 1fr 50px;
   align-items: center;
   gap: 1ch;
+  /* max-width: 80vw;
+  min-width: 400px; */
+  resize: both;
 }
 .del-icon {
   display: grid;
